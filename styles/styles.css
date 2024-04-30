@@ -4,19 +4,39 @@ nav {
     padding: 10px;
 }
 nav a{
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
 h1 {
     color: steelblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p { padding: 10px;
+p { padding: 0;
+}
+main{
+    max-width: 500px;
+}
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(o, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #47A4B5;
+    color: hsla(200,0%,0%,.7);
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid steelblue;
+    text-align: center;
 }
