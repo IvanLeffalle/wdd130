@@ -36,8 +36,8 @@ aside{
 }
 aside h2{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 115px;
+    left: 20px;
 }
 aside img {
     width: 200px;
@@ -56,4 +56,11 @@ footer {
     border: solid 1px black;
     background-color: #47A4B5;
     color:hsla(200,0%,0%,.7);
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
