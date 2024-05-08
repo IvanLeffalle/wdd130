@@ -35,18 +35,6 @@ a {
     margin: auto;
     
 }
-article img {
-    float: right; 
-    height: auto;
-    padding: 2px;
-
-}
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .hero h1 {
     top: 20px;
     position: absolute;
@@ -72,6 +60,21 @@ article {
     align-content: center;
     
 }
+article img {
+    float: right; 
+    height: auto;
+    padding: 2px;
+
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 
 .hero article img {
     float: right;
