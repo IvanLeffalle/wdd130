@@ -14,12 +14,17 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif ;
+    font-family: "Roboto", sans-serif;
     min-height: 100vh;
- padding: 20px;
+    padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -33,8 +38,9 @@ a {
     justify-content: center;
     align-content: center;
     margin: auto;
-    
+
 }
+
 .hero h1 {
     top: 20px;
     position: absolute;
@@ -58,14 +64,16 @@ article {
     width: auto;
     height: 200px;
     align-content: center;
-    
+
 }
+
 article img {
-    float: right; 
+    float: right;
     height: auto;
     padding: 2px;
 
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -85,11 +93,105 @@ article img {
 }
 
 article p {
-    margin-right: 120px; 
+    margin-right: 120px;
     margin: 0;
 
 }
-section img{
+
+section img {
     display: block;
     padding-bottom: 20px;
+}
+
+/*14/5/2024*/
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 1rem auto;
+    border-bottom: solid 1px #052F5F;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10rem;
+
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin: 0 0.25rem 0 5rem;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section_1 {
+
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.section_1 img {
+    width: 400px;
+    height: auto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section_2_images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.section_2_images img {
+    height: auto;
+    width: 280px;
+}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px #052F5F;
+    position: relative;
+}
+
+.icons {
+    position: absolute;
+    right: 1rem; 
+    display: flex;
+    gap: 0.5rem;
 }
