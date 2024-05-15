@@ -126,7 +126,6 @@ header img {
 }
 
 nav a {
-    display: block;
     color: var(--nav-hover-link-color);
     padding: 20px;
     text-decoration: none;
