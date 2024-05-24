@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Ivan Leffalle | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name: <input type="text" Id="fullname" name="fullname"></label>
+                <label for="useremail">Email: <input type="email" id="useremail" name="useremail"></label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="selection">What is your favorite browser? <select name="selection" id="selection">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                </select></label>
+                
+                <label for="pet">Do you have a household pet? <input type="checkbox" name="pet" id="pet"></label>
+                
+                <label for="live">List the places you have lived: <textarea name="live" id="live" placeholder="Write here" rows="4" ></textarea></label>
+                
+            </fieldset>
+            <input type="button" value="Submit Poll">
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form- User Poll Activity | Ivan Leffalle </p>
+    </footer>
+</body>
+</html>
