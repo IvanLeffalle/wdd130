@@ -15,8 +15,10 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    min-height: 100vh;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 main h1{
     text-align: center;
@@ -25,7 +27,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin: 1rem auto;
+    margin:0 auto;
     border-bottom: solid 1px #052F5F;
 }
 
@@ -159,7 +161,7 @@ textarea{
 .form_box, .contact_inf{
     
     border: solid 1px #3B4754;
-    padding: 5rem;
+    padding: 3em;
     display: grid;
     grid-gap: 1rem;
     background-color:#c3c2c21a ;
@@ -204,3 +206,63 @@ figcaption{
 a{
     text-decoration: none;
 }
+
+.hero_image{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('hero_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero_image::after{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.content_hero{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.content_hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #EA7815;
+
+}
+.content_hero p {
+    font-size: 20px;
+    color: aliceblue;
+    opacity: 0.8;
+}
+.content_hero button{
+    padding: 12px 22px;
+    margin-top:30px ;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #EA7815;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.line{
+    width: 75%;
+    border: solid 1px #3B4754;
+    ;
+}
+h1{
+    color: #EA7815;
+}
+
