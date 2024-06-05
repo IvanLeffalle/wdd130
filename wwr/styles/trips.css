@@ -277,6 +277,8 @@ td:last-of-type {
     border-radius: 10px;
     grid-column: 2/4;
     box-shadow: 0 5px 20px #777575;
+    width: 500px;
+    height: auto;
 }
 .text_container{
     display: grid;
