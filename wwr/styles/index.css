@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: #3B4754;
 }
 
 a {
@@ -122,6 +122,7 @@ footer {
 .content_hero h1 {
   font-size: 50px;
   margin-bottom: 20px;
+  color: #EA7815;
 }
 
 .content_hero p {
@@ -136,7 +137,7 @@ footer {
   font-size: 22px;
   border: none;
   outline: none;
-  color: white;
+  color: #000;
   background-color: #EA7815;
   border-radius: 15px;
   cursor: pointer;
@@ -152,7 +153,7 @@ footer {
   font-size: 22px;
   border: none;
   outline: none;
-  color: white;
+  color: #000;
   background-color: #EA7815;
   border-radius: 15px;
   cursor: pointer;
@@ -181,7 +182,7 @@ label {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #555;
+  color: #3B4754;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -217,7 +218,7 @@ input[type="submit"] {
   width: 10%;
   border: none;
   outline: none;
-  color: #fff;
+  color: #000;
   transition: all .3s ease;
   box-shadow: 4px 6px 10px -4px rgba(0, 0, 0, 0.3), 0 1px 1px -1px rgba(255, 255, 255, 0.3);
   cursor: pointer;
@@ -348,7 +349,12 @@ input[type="submit"]:hover {
   grid-row: 7/8;
   grid-column: 1 / 11;
   z-index: 1;
+  color: #EA7815;
 
+}
+
+.back_2_txt h2{
+  color: #EA7815;
 }
 
 .trip_link {
@@ -366,7 +372,7 @@ input[type="submit"]:hover {
   font-size: 22px;
   border: none;
   outline: none;
-  color: white;
+  color: #000;
   background-color: #EA7815;
   border-radius: 15px;
   cursor: pointer;

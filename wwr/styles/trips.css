@@ -125,19 +125,6 @@ footer {
     opacity: 0.8;
 }
 
-.content_hero button {
-    padding: 12px 22px;
-    margin-top: 30px;
-    font-size: 22px;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: #EA7815;
-    border-radius: 15px;
-    cursor: pointer;
-
-}
-
 .middle {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -321,7 +308,7 @@ td:last-of-type {
     font-size: 22px;
     border: none;
     outline: none;
-    color: white;
+    color: #000;
     background-color: #EA7815;
     border-radius: 15px;
     cursor: pointer;
@@ -364,3 +351,6 @@ td:last-of-type {
     z-index: 1;
   
   }
+h2{
+    color: #000;
+}
