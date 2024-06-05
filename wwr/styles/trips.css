@@ -188,9 +188,7 @@ footer {
     transition: 0.1s;
 }
 
-.ima_about {
-    border-radius: 10px;
-}
+
 
 .table_trips {
     background-color: #ebeae9;
@@ -269,37 +267,22 @@ td:last-of-type {
     background-color: #ebeae9;
     justify-content: center;
     text-align: center;
+    grid-template-columns: repeat(10, 1fr);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
-
-
-.abuot_container {
+.ima_about { 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    padding: 1rem;
-    text-align: left;
-
+    border-radius: 10px;
+    grid-column: 2/4;
+    box-shadow: 0 5px 20px #777575;
 }
-
-.image_container {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-    width: 10rem;
-    height: auto;
-    padding-right: 50px;
-}
-
-.text_container {
-    padding: 0 2rem 2rem 2rem;
+.text_container{
+    display: grid;
+    grid-column: 5/9;
     text-align: left;
-
-}
-
-.text_container p {
-    text-align: left;
-
+    padding-left: 10px;
 }
 
 .trip_btn, .trip_link {
