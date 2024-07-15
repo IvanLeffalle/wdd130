@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.box-1 {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px gray;
+    text-align: center;
+}
