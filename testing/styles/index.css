@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
+
     box-sizing: border-box;
     max-width: 400px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #96B6C5;
+    font-family: roboto;
 }
 
 .box-1 {
-    margin: 10px;
-    background-color: white;
+    margin: 10rem 0 0rem 0;
+    background-color: #EEE0C9;
     border-radius: 10px;
-    border: solid 1px gray;
+    border: solid 1px #F1F0E8;
+    text-align: center;
+}
+
+.title {
     text-align: center;
 }
